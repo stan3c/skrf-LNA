@@ -19,6 +19,22 @@ I run it in a Spyder window (WinPython package) and use the following package ve
 Name: scikit-rf   Version: 1.8.0
 Python v 3.8
 
+Edit the following section in "lnacalc.py" before you run the script:
+```markdown
+# ##================================================###
+# ## User defined input                             ###
+# ##================================================###
+f = freq.Frequency(0.4, 2, 101, 'ghz')
+Z0 = 50
+tem = DistributedCircuit(f, z0=Z0)
+fuser = 900e+6  # frequency of interest for user in Hz
+s2p_filename = 'BFU725F_2V_5mA_S_N.s2p'
+# s2p_filename = 'BFU520_05V0_010mA_NF_SP.s2p'
+plot_inline = False
+plot_save = False
+# ##================================================###
+
+
 Example output:
 
 ![Gain](gain-2025-11.png)
