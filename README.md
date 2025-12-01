@@ -19,6 +19,8 @@ Name: scikit-rf   Version: 1.8.0
 Python v 3.8
 
 Example output:
+```markdown
+```text
 
 runfile('D:/Work/skrf-LNA-main/lnacalc.py', wdir='D:/Work/skrf-LNA-main')
 Info: Images will not be ploted inline.
