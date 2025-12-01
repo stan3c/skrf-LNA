@@ -19,6 +19,10 @@ Name: scikit-rf   Version: 1.8.0
 Python v 3.8
 
 Example output:
+![Gain](gain-2025-11.png)
+![noise_circles](noise-circ-2025-11.png)
+![output matching](out-match-2025-11.png)
+
 ```markdown
 ```text
 
