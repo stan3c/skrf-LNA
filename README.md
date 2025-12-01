@@ -33,7 +33,7 @@ s2p_filename = 'BFU725F_2V_5mA_S_N.s2p'
 plot_inline = False
 plot_save = False
 # ##================================================###
-
+```
 
 Example output:
 
@@ -42,7 +42,6 @@ Example output:
 ![output matching](out-match-2025-11.png)
 
 ```markdown
-```text
 
 runfile('D:/Work/skrf-LNA-main/lnacalc.py', wdir='D:/Work/skrf-LNA-main')
 Info: Images will not be ploted inline.
